@@ -1754,3 +1754,9 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
      * * * *   * * * * 
     * * * * * * * * * * 
 
+## Connect with Me 🤝
+Find out more about my journey and connect with me on [LinkedIn](https://www.linkedin.com/in/ankithkumar08-data-analyst).
+
+---
+
+## Thank you for checking out my repository! Let’s code together! 💻
