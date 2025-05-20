@@ -746,9 +746,22 @@ This README showcases various pattern programs with `n = 5`.
 
 **46**
 
-n = int(input("enter a number:")) l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" for i
-in range(0,n): print(" "*(n-i),end="") for j in range(0,i+1):
-print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
+n = int(input("enter a number:"))
+l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+for i in range(0,n):
+    print(" "*(n-i),end="")
+    for j in range(0,i+1):
+        print(l[j],end="")
+    for k in range(i-1,-1,-1):
+        print(l[k],end="")
+    print()
+
+    enter a number: 5
+     A
+    ABA
+   ABCBA
+  ABCDCBA
+ ABCDEDCBA
 
 **47**
 
