@@ -3,149 +3,10 @@
 
 This README showcases various pattern programs with `n = 5`.
 
-## 📌 Pattern 1: Square of Asterisks
-
-**Code:**
-```python
-n = 5
-for i in range(1, n+1):
-    print(n * "* ")
-```
-
-**Output:**
-```
-* * * * * 
-* * * * * 
-* * * * * 
-* * * * * 
-* * * * * 
-```
----
-
-## 📌 Pattern 2: Rows with Increasing Numbers
-
-**Code:**
-```python
-n = 5
-for i in range(1, n+1):
-    print(n * (str(i) + " "))
-```
-
-**Output:**
-```
-1 1 1 1 1 
-2 2 2 2 2 
-3 3 3 3 3 
-4 4 4 4 4 
-5 5 5 5 5 
-```
----
-
-## 📌 Pattern 3: Sequential Numbers in Grid
-
-**Code:**
-```python
-n = 5
-for i in range(1, n+1):
-    for j in range(1, n+1):
-        print(j, end=" ")
-    print()
-```
-
-**Output:**
-```
-1 2 3 4 5
-1 2 3 4 5
-1 2 3 4 5
-1 2 3 4 5
-1 2 3 4 5
-```
----
-
-## 📌 Pattern 4: Repeating Alphabets
-
-**Code:**
-```python
-n = 5
-l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-for j in l[0:n]:
-    print(n * (str(j) + " "))
-```
-
-**Output:**
-```
-A A A A A 
-B B B B B 
-C C C C C 
-D D D D D 
-E E E E E 
-```
----
-
-## 📌 Pattern 5: Right Angle Triangle with Asterisks
-
-**Code:**
-```python
-n = 5
-for i in range(1, n+1):
-    print("* " * i)
-```
-
-**Output:**
-```
-* 
-* * 
-* * * 
-* * * * 
-* * * * * 
-```
----
-
-## 📌 Pattern 6: Number Triangle
-
-**Code:**
-```python
-n = 5
-for i in range(1, n+1):
-    for j in range(1, i+1):
-        print(j, end=" ")
-    print()
-```
-
-**Output:**
-```
-1
-1 2
-1 2 3
-1 2 3 4
-1 2 3 4 5
-```
----
-
-## 📌 Pattern 7: Inverted Number Triangle
-
-**Code:**
-```python
-n = 5
-for i in range(n, 0, -1):
-    for j in range(1, i+1):
-        print(j, end=" ")
-    print()
-```
-
-**Output:**
-```
-1 2 3 4 5
-1 2 3 4
-1 2 3
-1 2
-1
-```
-
 ---
 
 
-1
+**1**
 
     n = int(input("Enter a number:"))
     for i in range(1,n+1):
@@ -159,7 +20,7 @@ for i in range(n, 0, -1):
     * * * * * 
     * * * * * 
 
-2
+**2**
 
     n = int(input("Enter a number:"))
     for i in range(1,n+1):
@@ -173,7 +34,7 @@ for i in range(n, 0, -1):
     4 4 4 4 4 
     5 5 5 5 5 
 
-3
+**3**
 
     n = int(input("Enter a number:"))
     for i in range(1,n+1):
@@ -189,7 +50,7 @@ for i in range(n, 0, -1):
     1 2 3 4 5 
     1 2 3 4 5 
 
-4
+**4**
 
     n = int(input("Enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -204,7 +65,7 @@ for i in range(n, 0, -1):
     D D D D D 
     E E E E E 
 
-5
+**5**
 
     n = int(input("Enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -221,7 +82,7 @@ for i in range(n, 0, -1):
     A B C D E 
     A B C D E 
 
-6
+**6**
 
     n = int(input("Enter a number"))
     for i in range(n,0,-1):
@@ -235,7 +96,7 @@ for i in range(n, 0, -1):
     2 2 2 2 2 
     1 1 1 1 1 
 
-7
+**7**
 
     n = int(input("Enter a number"))
     for i in range(n,0,-1):
@@ -251,7 +112,7 @@ for i in range(n, 0, -1):
     5 4 3 2 1 
     5 4 3 2 1 
 
-8
+**8**
 
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     n = int(input("Enter a number:"))
@@ -266,7 +127,7 @@ for i in range(n, 0, -1):
     B B B B B 
     A A A A A 
 
-9
+**9**
 
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     n = int(input("Enter a number:"))
@@ -282,7 +143,7 @@ for i in range(n, 0, -1):
     E D C B A 
     E D C B A 
 
-****10****
+**10**
 
     n = int(input("Enter a number:"))
     for i in range(1,n+1):
@@ -296,7 +157,7 @@ for i in range(n, 0, -1):
     * * * * 
     * * * * * 
 
-11
+**11**
 
     n = int(input("Enter a number:"))
     for i in range(1,n+1):
@@ -310,7 +171,7 @@ for i in range(n, 0, -1):
     4 4 4 4 
     5 5 5 5 5 
 
-12
+**12**
 
     n = int(input("Enter a number:"))
     for i in range(1,n+1):
@@ -326,7 +187,7 @@ for i in range(n, 0, -1):
     1 2 3 4 
     1 2 3 4 5 
 
-13
+**13**
 
     n = int(input("enter a number"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -343,7 +204,7 @@ for i in range(n, 0, -1):
     D D D D 
     E E E E E 
 
-14
+**14**
 
     n = int(input("enter a number"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -360,7 +221,7 @@ for i in range(n, 0, -1):
     A B C D 
     A B C D E 
 
-15
+**15**
 
     n = int(input("Enter a number:"))
     for i in range(n,0,-1):
@@ -374,7 +235,7 @@ for i in range(n, 0, -1):
     * * 
     * 
 
-16
+**16**
 
     n = int(input("Enter a number: "))
     for i in range(1, n + 1):
@@ -388,7 +249,7 @@ for i in range(n, 0, -1):
     4 4 
     5 
 
-17
+**17**
 
     n =int(input("Enter a number: "))
     for i in range(n,0,-1):
@@ -404,7 +265,7 @@ for i in range(n, 0, -1):
     1 2 
     1 
 
-18
+**18**
 
     n = int(input("Enter a numbe: "))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -421,7 +282,7 @@ for i in range(n, 0, -1):
     D D 
     E 
 
-19
+**19**
 
     n = int(input("Enter a numbe: "))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -438,7 +299,7 @@ for i in range(n, 0, -1):
     A B 
     A 
 
-20
+**20**
 
     n = int(input("Enter a number: "))
     for i in range(n,0,-1):
@@ -452,7 +313,7 @@ for i in range(n, 0, -1):
     2 2 
     1 
 
-21
+**21**
 
     n = int(input("Enter a number: "))
     for i in range(n,0,-1):
@@ -468,7 +329,7 @@ for i in range(n, 0, -1):
     5 4 
     5 
 
-22
+**22**
 
     n = int(input("Enter a number"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -486,7 +347,7 @@ for i in range(n, 0, -1):
     B B 
     A
 
-23
+**23**
 
     n = int(input("Enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -503,7 +364,7 @@ for i in range(n, 0, -1):
     E D 
     E 
 
-24
+**24**
 
     n = int(input("Enter a number:"))
     for i in range(1,n+1):
@@ -517,7 +378,7 @@ for i in range(n, 0, -1):
      ****
     *****
 
-25
+**25**
 
     n = int(input("Enter a number:"))
     for i in range(1,n+1):
@@ -531,7 +392,7 @@ for i in range(n, 0, -1):
      4444
     55555
 
-26
+**26**
 
     n = int(input("Enter a number:"))
     for i in range(1,n+1):
@@ -548,7 +409,7 @@ for i in range(n, 0, -1):
      1234
     12345
 
-27
+**27**
 
     n = int(input("Enter a numer: "))
     n =int(input("Enter a number: "))
@@ -567,7 +428,7 @@ for i in range(n, 0, -1):
      DDDD
     EEEEE
 
-28
+**28**
 
     n = int(input("Enter a numer: "))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -585,7 +446,7 @@ for i in range(n, 0, -1):
      ABCD
     ABCDE
 
-29
+**29**
 
     n = int(input("Enter a number:"))
     for i in range(n,0,-1):
@@ -599,7 +460,7 @@ for i in range(n, 0, -1):
        **
         *
 
-30
+**30**
 
     n = int(input("Enter a numer:"))
     for i in range(n,0,-1):
@@ -613,7 +474,7 @@ for i in range(n, 0, -1):
        22
         1
 
-31
+**31**
 
     n = int(input("Enter a number:"))
     for i in range(n+1,0,-1):
@@ -631,7 +492,7 @@ for i in range(n, 0, -1):
         1
          
 
-32
+**32**
 
     n = int(input("Enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -646,7 +507,7 @@ for i in range(n, 0, -1):
        BB
         A
 
-33
+**33**
 
     n = int(input("Enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -664,7 +525,7 @@ for i in range(n, 0, -1):
        AB
         A
 
-34
+**34**
 
     n = int(input("Enter a number:"))
     for i in range(1,n+1):
@@ -678,7 +539,7 @@ for i in range(n, 0, -1):
      *******
     *********
 
-35
+**35**
 
     n = int(input("Enter a number:"))
     for i in range(1,n+1):
@@ -692,7 +553,7 @@ for i in range(n, 0, -1):
      4444444
     555555555
 
-36
+**36**
 
     n = int(input("Enter a number: "))
     num = 1  
@@ -709,7 +570,7 @@ for i in range(n, 0, -1):
      7777777
     999999999
 
-37
+**37**
 
     n = int(input("Enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -727,7 +588,7 @@ for i in range(n, 0, -1):
       DDDDDDD
      EEEEEEEEE
 
-38
+**38**
 
     n = int(input("Enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -747,7 +608,7 @@ for i in range(n, 0, -1):
       GGGGGGG
      IIIIIIIII
 
-39
+**39**
 
     n = int(input("Enter a number:"))
     for i in range(1,n+1):
@@ -764,7 +625,7 @@ for i in range(n, 0, -1):
      1234567
     123456789
 
-40
+**40**
 
     n = int(input("Enter a number:"))
     for i in range(1,n+1):
@@ -781,7 +642,7 @@ for i in range(n, 0, -1):
      7654321
     987654321
 
-41
+**41**
 
     n = int(input("enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -799,7 +660,7 @@ for i in range(n, 0, -1):
      ABCDEFG
     ABCDEFGHI
 
-42
+**42**
 
     n = int(input("enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -817,7 +678,7 @@ for i in range(n, 0, -1):
       GFEDCBA
      IHGFEDCBA
 
-43
+**43*
 
     n = int(input("Enter a number:"))
     for i in range(0,n):
@@ -836,7 +697,7 @@ for i in range(n, 0, -1):
       3210123
      432101234
 
-44
+**44**
 
     n= int(input("enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -856,7 +717,7 @@ for i in range(n, 0, -1):
      DCBABCD
     EDCBABCDE
 
-45
+**45**
 
     n = int(input("enter a number:"))
     for i in range(1,n+1):
@@ -875,13 +736,13 @@ for i in range(n, 0, -1):
      1234321
     123454321
 
-46
+**46**
 
 n = int(input("enter a number:")) l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" for i
 in range(0,n): print(" "*(n-i),end="") for j in range(0,i+1):
 print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
 
-47
+**47**
 
     n = int(input("Enter a number:"))
     for i in range(n,0,-1):
@@ -895,7 +756,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
        ***
         *
 
-48
+**48**
 
     n = int(input("enter a number:"))
     for i in range(n,0,-1):
@@ -909,7 +770,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
        222
         1
 
-49
+**49**
 
     n = int(input("enter a nuber:"))
     for i in range(n,0,-1):
@@ -923,7 +784,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
        333
         1
 
-50
+**50**
 
     n = int(input("enter a number:"))
     for i in range(n,0,-1):
@@ -940,7 +801,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
        1
         
 
-51
+**51**
 
     n = int(input("Enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -956,7 +817,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
        BBB
         A
 
-52
+**52**
 
     n = int(input("Enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -971,7 +832,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
        CCC
         A
 
-53
+**53**
 
     n = int(input("enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -989,7 +850,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
           A B C 
             A 
 
-54
+**54**
 
     n = int(input("enter a number:"))
     for i in range(1,n+1):
@@ -1009,7 +870,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
     * * 
     * 
 
-55
+**55**
 
     n = int(input("enter a number: "))
     for i in range(n-1, -1, -1):
@@ -1033,7 +894,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
     4 3 
     4 
 
-56
+**56**
 
     n = int(input("enter a number:"))
     for i in range(n-1,-1,-1):
@@ -1057,7 +918,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
     3 4 
     4 
 
-57
+**57**
 
     n = int(input("enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -1082,7 +943,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
     E D 
     E 
 
-58
+**58**
 
     n = int(input("enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -1107,7 +968,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
     D E 
     E 
 
-59
+**59**
 
     n = int(input("enter a number:"))
     for i in range(1,n+1):
@@ -1126,7 +987,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
          * * *
            * *
 
-60
+**60**
 
     n = int(input("enter a number"))
     for i in range(1,n+1):
@@ -1152,7 +1013,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
           4 3 
             4 
 
-61
+**61**
 
     n = int(input("Enter a number:"))
     for i in range(n,-1,-1):
@@ -1179,7 +1040,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
            3 4 
              4 
 
-62
+**62**
 
     n = int(input("enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -1207,7 +1068,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
            D E 
              E 
 
-63
+**63**
 
     n = int(input("enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -1234,7 +1095,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
            E D 
              E 
 
-64
+**64**
 
     n = int(input("Enter a number:"))
     for i in range(1,n+1):
@@ -1248,7 +1109,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
       * * * * 
      * * * * * 
 
-65
+**65**
 
     n = int(input("Enter a number:"))
     for i in range(1,n+1):
@@ -1262,7 +1123,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
      4 4 4 4 
     5 5 5 5 5 
 
-66
+**66**
 
     n = int(input("enter a number:"))
     for i in range(1,n+1):
@@ -1279,7 +1140,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
      1 2 3 4 
     1 2 3 4 5 
 
-67
+**67**
 
     n = int(input("enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -1294,7 +1155,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
      D D D D 
     E E E E E 
 
-68
+**68**
 
     n = int(input("Enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -1312,7 +1173,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
      A B C D 
     A B C D E 
 
-69
+**69**
 
     n =int(input("enter a number:"))
     for i in range(n,0,-1):
@@ -1326,7 +1187,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
        * * 
         * 
 
-70
+**70**
 
     n = int(input("enter a number:"))
     for i in range(n,0,-1):
@@ -1340,7 +1201,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
        2 2 
         1 
 
-71
+**71**
 
     n = int(input("Enter a number:"))
     for i in range(n,0,-1):
@@ -1357,7 +1218,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
        2 1 
         1 
 
-72
+**72**
 
     n = int(input("enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -1373,7 +1234,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
         A 
          
 
-73
+**73**
 
     n = int(input("enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -1391,7 +1252,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
         B A 
          A 
 
-74
+**74**
 
     n = int(input("enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -1410,7 +1271,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
         A 
          
 
-75
+**75**
 
     n = int(input("enter a number:"))
     for i in range(n,-1,-1):
@@ -1432,7 +1293,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
          *
          
 
-76
+**76**
 
     n = int(input("enter a number:"))
     for i in range(1,n+1):
@@ -1452,7 +1313,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
        2 2 
         1 
 
-77
+**77**
 
     n = int(input("Enter a number:"))
     for i in range(1,n+1):
@@ -1478,7 +1339,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
        4 5 
         5 
 
-78
+**78**
 
     n = int(input("Enter a number:"))
     for i in range(1,n+1):
@@ -1504,7 +1365,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
        1 2 
         1 
 
-79
+**79**
 
     n = int(input("Enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -1526,7 +1387,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
         A 
          
 
-80
+**80**
 
     n = int(input("Enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -1554,7 +1415,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
         E 
          
 
-81
+**81**
 
     n = int(input("enter a number:"))
     for i in range(n):
@@ -1568,7 +1429,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
      *     *
     *       *
 
-82
+**82**
 
     n = int(input("enter a number:"))
     for i in range(1,n+1):
@@ -1582,7 +1443,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
       4     4
      5       5
 
-83
+**83**
 
     n = int(input("enter a number:"))
     for i in range(0,n):
@@ -1596,7 +1457,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
      2     2
     1       1
 
-84
+**84**
 
     n = int(input("enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -1611,7 +1472,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
      D     D
     E       E
 
-85
+**85**
 
     n = int(input("enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -1626,7 +1487,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
      B     B
     A       A
 
-86
+**86**
 
     n = int(input("enter a number:"))
     for i in range(n,-1,-1):
@@ -1641,7 +1502,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
         * *
          *
 
-87
+**87**
 
     n = int(input("enter a number:"))
     for i in range(n,0,-1):
@@ -1655,7 +1516,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
        4 4
         5
 
-88
+**88**
 
     n = int(input("Enter a number:"))
     for i in range(0,n):
@@ -1669,7 +1530,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
        2 2
         1
 
-89
+**89**
 
     n = int(input("Enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -1684,7 +1545,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
        D D
         E
 
-90
+**90**
 
     n = int(input('enter a number:'))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -1699,7 +1560,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
        B B
         A
 
-91
+**91**
 
     n = int(input("Enter a number"))
     for i in range(n):
@@ -1721,7 +1582,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
         * *
          *
 
-92
+**92**
 
     n = int(input("Enter a number:"))
     for i in range(1,n+1):
@@ -1741,7 +1602,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
        2 2
         1
 
-93
+**93**
 
     n = int(input("Enter a number:"))
     for i in range(n,0,-1):
@@ -1761,7 +1622,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
        4 4
         5
 
-94
+**94**
 
     n = int(input("Enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -1782,7 +1643,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
         B B
          A
 
-95
+**95**
 
     n = int(input("enter a number:"))
     l = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -1803,7 +1664,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
        D D
         E
 
-96
+**96**
 
     n = int(input("enter a number:"))
     for i in range(n):
@@ -1817,7 +1678,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
     **      **
     *        *
 
-97
+**97**
 
     n = int(input("enter a number:"))
     for i in range(n,-1,-1):
@@ -1832,7 +1693,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
     ****  ****
     **********
 
-98
+**98**
 
     n = int(input("enter a number:"))
     for i in range(n,-1,-1):
@@ -1853,7 +1714,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
     **      **
     *        *
               
-
+**99**
     n = int(input("enter a number:"))
     for i in range(1,n+1):
         print((n-i)*" "+(i*2-1)*"*"+(n-i)*" "+(n-i)*" "+(i*2-1)*"*")
@@ -1866,6 +1727,7 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
      *******  *******
     ******************
 
+**100**
     n = int(input("enter a number:"))
     for i in range(1,n+1):
         print((n-i)*" "+i*"* "+(n-i)*" "+(n-i)*" "+i*"* ")
