@@ -7,20 +7,23 @@ This README showcases various pattern programs with `n = 5`.
 
 
 **1**
+```python
 
-    '''n = int(input("Enter a number:"))
+    n = int(input("Enter a number:"))
     for i in range(1,n+1):
-        print(n*"* ")'''
+        print(n*"* ")
+'''
 
-
+---
     Enter a number: 5
-
+'''
     * * * * * 
     * * * * * 
     * * * * * 
     * * * * * 
     * * * * * 
-
+'''
+---
 **2**
 
     n = int(input("Enter a number:"))
