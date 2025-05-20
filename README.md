@@ -7,22 +7,18 @@ This README showcases various pattern programs with `n = 5`.
 
 
 **1**
-```python
 
     n = int(input("Enter a number:"))
     for i in range(1,n+1):
-        print(n*"* ")'''
+        print(n*"* ")
 
----
     Enter a number: 5
-'''
     * * * * * 
     * * * * * 
     * * * * * 
     * * * * * 
     * * * * * 
-'''
----
+
 **2**
 
     n = int(input("Enter a number:"))
@@ -30,7 +26,6 @@ This README showcases various pattern programs with `n = 5`.
         print(n*(str(i)+" "))
 
     Enter a number: 5
-
     1 1 1 1 1 
     2 2 2 2 2 
     3 3 3 3 3 
@@ -46,7 +41,6 @@ This README showcases various pattern programs with `n = 5`.
         print()
 
     Enter a number: 5
-
     1 2 3 4 5 
     1 2 3 4 5 
     1 2 3 4 5 
@@ -61,7 +55,6 @@ This README showcases various pattern programs with `n = 5`.
         print(n*(str(j)+" "))
 
     Enter a number: 5
-
     A A A A A 
     B B B B B 
     C C C C C 
@@ -78,7 +71,6 @@ This README showcases various pattern programs with `n = 5`.
         print()
 
     Enter a number: 5
-
     A B C D E 
     A B C D E 
     A B C D E 
@@ -92,7 +84,6 @@ This README showcases various pattern programs with `n = 5`.
         print(n*(str(i)+" "))
 
     Enter a number 5
-
     5 5 5 5 5 
     4 4 4 4 4 
     3 3 3 3 3 
@@ -108,7 +99,6 @@ This README showcases various pattern programs with `n = 5`.
         print()
 
     Enter a number 5
-
     5 4 3 2 1 
     5 4 3 2 1 
     5 4 3 2 1 
@@ -123,7 +113,6 @@ This README showcases various pattern programs with `n = 5`.
             print((i+" ")*n)
 
     Enter a number: 5
-
     E E E E E 
     D D D D D 
     C C C C C 
@@ -140,7 +129,6 @@ This README showcases various pattern programs with `n = 5`.
         print()
 
     Enter a number: 5
-
     E D C B A 
     E D C B A 
     E D C B A 
