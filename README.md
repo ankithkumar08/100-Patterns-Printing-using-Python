@@ -1704,8 +1704,11 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
     ***    ***
     **      **
     *        *
+
               
 **99**
+
+
     n = int(input("enter a number:"))
     for i in range(1,n+1):
         print((n-i)*" "+(i*2-1)*"*"+(n-i)*" "+(n-i)*" "+(i*2-1)*"*")
@@ -1718,7 +1721,10 @@ print(l[j],end="") for k in range(i-1,-1,-1): print(l[k],end="") print()
      *******  *******
     ******************
 
+
 **100**
+
+
     n = int(input("enter a number:"))
     for i in range(1,n+1):
         print((n-i)*" "+i*"* "+(n-i)*" "+(n-i)*" "+i*"* ")
